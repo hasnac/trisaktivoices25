@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trisakti Voices - UKM Debat Universitas Trisakti. Mengasah kemampuan argumentasi dan public speaking mahasiswa.">
+    <meta name="keywords" content="UKM, debat, Trisakti, public speaking, argumentasi, mahasiswa">
+    <meta name="author" content="Trisakti Voices">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Trisakti Voices - UKM Debat">
+    <meta property="og:description" content="Mengasah kemampuan argumentasi, membangun kepercayaan diri, dan memenangkan perdebatan dengan logika yang kuat">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&h=630&fit=crop">
+    <meta property="og:url" content="https://trisaktivoices.com">
+    <meta property="og:type" content="website">
+    
+    <title>Trisakti Voices - UKM Debat Universitas Trisakti</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎤</text></svg>">
+    
+    <!-- External CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop" as="image">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="scroll-progress" style="position: fixed; top: 0; left: 0; height: 3px; background: var(--secondary-color); width: 0%; z-index: 9999; transition: width 0.1s ease;"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/image.png" alt="Trisakti Voices Logo">
+                <span>Trisakti Voices</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Beranda</a>
+                <a href="#about" class="nav-link">Tentang Kami</a>
+                <a href="#activities" class="nav-link">Kegiatan</a>
+                <a href="#awards" class="nav-link">Penghargaan</a>
+                <a href="#registration" class="nav-link">Pendaftaran</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Trisakti Voices</h1>
+                <p class="hero-subtitle">Unit Kegiatan Mahasiswa Debat Universitas Trisakti</p>
+                <p class="hero-description">Mengasah kemampuan argumentasi, membangun kepercayaan diri, dan memenangkan perdebatan dengan logika yang kuat</p>
+                <div class="hero-buttons">
+                    <a href="#registration" class="btn btn-primary">Bergabung Sekarang</a>
+                    <a href="#about" class="btn btn-secondary">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="debate-icons">
+                    <i class="fas fa-microphone-alt"></i>
+                    <i class="fas fa-gavel"></i>
+                    <i class="fas fa-comments"></i>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="hero-wave"></div> -->
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang Trisakti Voices</h2>
+                <p>Mengenal lebih dekat UKM Debat Universitas Trisakti</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Trisakti Voices adalah Unit Kegiatan Mahasiswa (UKM) debat yang berdiri sebagai wadah bagi mahasiswa Universitas Trisakti untuk mengembangkan kemampuan berbicara di depan umum, argumentasi, dan berpikir kritis. Kami berkomitmen untuk melahirkan debater-debater handal yang mampu bersaing di tingkat nasional dan internasional.</p>
+                    
+                    <div class="vision-mission">
+                        <div class="vision">
+                            <h3><i class="fas fa-eye"></i> Visi</h3>
+                            <p>Menjadi Unit Kegiatan Mahasiswa (UKM) debat unggulan di Universitas Trisakti yang berperan aktif dalam menciptakan ekosistem organisasi yang berkelanjutan, mendukung pengembangan anggota secara holistik, serta meraih prestasi gemilang di tingkat nasional maupun internasional.</p>
+                        </div>
+                        
+                        <div class="mission">
+                            <h3><i class="fas fa-bullseye"></i> Misi</h3>
+                            <ul>
+                                <li>Membangun ekosistem keorganisasian yang berkelanjutan</li>
+                                <li>Mengembangkan budaya kerja yang inklusif, profesional, dan berbasis kolaborasi.</li>
+                                <li>Mengembangkan potensi anggota secara maksimal</li>
+                                <li>Memberikan pelatihan debat berkualitas yang mencakup aspek teknis dan strategis.</li>
+                                <li>Meraih pencapaian juara yang memuaskan</li>
+                                <li>Mengikuti kompetisi debat bergengsi di berbagai tingkatan sebagai bukti kemampuan anggota.</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="activities">
+        <div class="container">
+            <div class="section-header">
+                <h2>Kegiatan Aktif</h2>
+                <p>Berbagai program dan kegiatan yang kami laksanakan secara rutin</p>
+            </div>
+            
+            <div class="activities-grid">
+                <div class="activity-card" data-activity="training">
+                    <div class="activity-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Latihan Debat Rutin</h3>
+                    <p>Latihan debat dan public speaking setiap minggu dengan mentor berpengalaman untuk meningkatkan kemampuan argumentasi anggota.</p>
+                    <div class="activity-schedule">
+                        <i class="fas fa-calendar"></i>
+                        <span>Setiap Rabu & Jumat, 16:00-18:00</span>
+                    </div>
+                    <div class="activity-gallery">
+                        <img src="images/latihan.jpg" alt="Training 1" loading="lazy">
+                        <img src="images/latihan1.jpg" alt="Training 2" loading="lazy">
+                        <img src="images/latihan2.jpg" alt="Training 3" loading="lazy">
+                    </div>
+                    <!-- <div class="activity-actions">
+                        <button class="btn btn-primary" onclick="showActivityDetail('training')">Lihat Detail</button>
+                    </div> -->
+                </div>
+                
+                <div class="activity-card" data-activity="competition">
+                    <div class="activity-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Kompetisi Debat</h3>
+                    <p>Aktif mengikuti berbagai kompetisi debat tingkat regional, nasional, dan internasional dalam format Bahasa Indonesia, Inggris, dan Parliamentary.</p>
+                    <div class="activity-schedule">
+                        <i class="fas fa-calendar"></i>
+                        <span>Sepanjang Tahun</span>
+                    </div>
+                    <div class="activity-gallery">
+                        <img src="images/lomba1.jpg" alt="Competition 1" loading="lazy">
+                        <img src="images/lomba2.jpg" alt="Competition 2" loading="lazy">
+                        <img src="images/lomba3.jpg" alt="Competition 3" loading="lazy">
+                    </div>
+                    <!-- <div class="activity-actions">
+                        <button class="btn btn-primary" onclick="showActivityDetail('competition')">Lihat Detail</button>
+                    </div> -->
+                </div>
+                
+                <div class="activity-card" data-activity="seminar">
+                    <div class="activity-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Seminar & Workshop</h3>
+                    <p>Menyelenggarakan seminar public speaking dan workshop debat dengan pembicara ahli untuk pengembangan kemampuan anggota.</p>
+                    <div class="activity-schedule">
+                        <i class="fas fa-calendar"></i>
+                        <span>Coming Soon</span>
+                    </div>
+                    <div class="activity-gallery">
+                        <img src="images/fgd1.jpg" alt="Seminar 1" loading="lazy">
+                        <img src="images/nudcdies.jpeg" alt="Seminar 1" loading="lazy">
+                        <img src="images/seminar.jpg" alt="Seminar 1" loading="lazy">
+                    </div>
+                    <!-- <div class="activity-actions">
+                        <button class="btn btn-primary" onclick="showActivityDetail('seminar')">Coming Soon</button>
+                    </div> -->
+                </div>
+                
+                <div class="activity-card" data-activity="tournament">
+                    <div class="activity-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Forum Group Discussion</h3>
+                    <p>Forum Group Discussion (FGD) ini merupakan salah satu kegiatan yang diselenggarakan oleh Trisakti Voices, UKM Debat Universitas Trisakti, sebagai wadah bertukar pikiran, melatih analisis kritis, serta memperluas wawasan anggota./p>
+                    <div class="activity-schedule">
+                        <i class="fas fa-calendar"></i>
+                        <span>Setiap Minggu</span>
+                    </div>
+                    <div class="activity-gallery">
+                        <img src="images/fgd.jpg" alt="Tournament 1" loading="lazy">
+                        <img src="images/fgd3.jpg" alt="Tournament 2" loading="lazy">
+                        <img src="images/fgd2.jpg" alt="Tournament 3" loading="lazy">
+                    </div>
+                    <!-- <div class="activity-actions">
+                        <button class="btn btn-primary" >Lihat Detail</button>
+                    </div> -->
+                </div>
+                
+                <!-- <div class="activity-card" data-activity="community">
+                    <div class="activity-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Kegiatan Sosial</h3>
+                    <p>Terlibat dalam kegiatan sosial dan pengabdian masyarakat melalui diskusi publik dan edukasi politik.</p>
+                    <div class="activity-schedule">
+                        <i class="fas fa-calendar"></i>
+                        <span>Sesuai Kebutuhan</span>
+                    </div>
+                    <div class="activity-gallery">
+                        <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=400&h=250&fit=crop" alt="Community 1" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400&h=250&fit=crop" alt="Community 2" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=400&h=250&fit=crop" alt="Community 3" loading="lazy">
+                    </div>
+                    <div class="activity-actions">
+                        <button class="btn btn-primary" onclick="showActivityDetail('community')">Lihat Detail</button>
+                    </div>
+                </div>
+                
+                <div class="activity-card" data-activity="collaboration">
+                    <div class="activity-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Kolaborasi</h3>
+                    <p>Berkolaborasi dengan UKM debat lain dan organisasi mahasiswa dalam berbagai event dan pertukaran ilmu.</p>
+                    <div class="activity-schedule">
+                        <i class="fas fa-calendar"></i>
+                        <span>Berkala</span>
+                    </div>
+                    <div class="activity-gallery">
+                        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=400&h=250&fit=crop" alt="Collaboration 1" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=400&h=250&fit=crop" alt="Collaboration 2" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop" alt="Collaboration 3" loading="lazy">
+                    </div>
+                    <div class="activity-actions">
+                        <button class="btn btn-primary" onclick="showActivityDetail('collaboration')">Lihat Detail</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="awards">
+        <div class="container">
+            <div class="section-header">
+                <h2>Penghargaan & Prestasi</h2>
+                <p>Pencapaian yang membanggakan sepanjang perjalanan Trisakti Voices</p>
+            </div>
+            
+            <div class="awards-timeline">
+                <div class="award-item">
+                    <div class="award-year">2025</div>
+                    <div class="award-content">
+                        <div class="award-trophy">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h3>Juara 1 Jarkologi 5.0</h3>
+                        <p class="award-event">Kompetisi Debat Mahasiswa Indonesia</p>
+                        <div class="award-image-container">
+                            <img src="images/jarkologi.jpeg" alt="Juara 1 Kompetisi Debat Nasional 2024" loading="lazy" class="award-image">
+                        </div>
+                        <p class="award-description">Meraih juara pertama dalam kompetisi debat nasional Jarkologi 5.0</p>
+                        <div class="award-delegation">
+                            <h4><i class="fas fa-users"></i> Delegasi yang Berpartisipasi:</h4>
+                            <div class="delegation-grid">
+                                <div class="delegate-card">
+                                   
+                                    <h5>Chica Dinda</h5>
+                                    <p>Best Speaker - Fakultas Arsitektur Lanskap dan Teknik Lingkungan</p>
+                                </div>
+                                <div class="delegate-card">
+                                    
+                                    <h5>Kirana Iskandar</h5>
+                                    <p>Fakultas Ekonomi dan Bisnis</p>
+                                </div>
+                                <div class="delegate-card">
+                                   
+                                    <h5>Clara</h5>
+                                    <p>Fakultas Ekonomi dan Bisnis</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- <div class="award-actions">
+                            <button class="btn btn-secondary" onclick="showAwardDetail('2024-national')">Lihat Detail</button>
+                        </div> -->
+                    </div>
+                </div>
+                
+                <div class="award-item">
+                    <div class="award-year">2025</div>
+                    <div class="award-content">
+                        <div class="award-trophy">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Tarumanegara English Club NEON</h3>
+                        <p class="award-event">National University Deabting Championship</p>
+                        <div class="award-image-container">
+                            <img src="images/untar.jpeg" alt="Runner-up Asian Parliamentary Debate 2023" loading="lazy" class="award-image">
+                        </div>
+                        <p class="award-description">Meraih posisi 3rd winner dalam kompetisi Tarumanegara English Club NEON.</p>
+                        <div class="award-delegation">
+                            <h4><i class="fas fa-users"></i> Delegasi yang Berpartisipasi:</h4>
+                            <div class="delegation-grid">
+                                <div class="delegate-card">
+                                    <!-- <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="Rizki Pratama" loading="lazy"> -->
+                                    <h5>Kirana Natsha Iskandar</h5> 
+                                    <p>Fakultas Ekonomi dan Bisnis</p>
+                                </div>
+                                <div class="delegate-card">
+                                    <!-- <img src="https://images.unsplash.com/photo-1494790108755-2616b86a67b4?w=150&h=150&fit=crop&crop=face" alt="Maria Angelica" loading="lazy"> -->
+                                    <h5>Natasha Christy</h5>
+                                    <p>Fakultas Kedokteran</p>
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                        <!-- <div class="award-actions">
+                            <button class="btn btn-secondary" onclick="showAwardDetail('2023-asian')">Lihat Detail</button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="award-item">
+                    <div class="award-year">2025</div>
+                    <div class="award-content">
+                        <div class="award-trophy">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Ganesha Open by SEF ITB</h3>
+                        <p class="award-event">National University Deabting Championship</p>
+                        <div class="award-image-container">
+                            <img src="images/go.jpeg" alt="Runner-up Asian Parliamentary Debate 2023" loading="lazy" class="award-image">
+                        </div>
+                        <p class="award-description">Meraih posisi 3rd Runner Up dalam kompetisi Ganesha Open by SEF ITB.</p>
+                        <div class="award-delegation">
+                            <h4><i class="fas fa-users"></i> Delegasi yang Berpartisipasi:</h4>
+                            <div class="delegation-grid">
+                                <div class="delegate-card">
+                                    <!-- <img src="images/" alt="Rizki Pratama" loading="lazy"> -->
+                                    <h5>Clara</h5>
+                                    <p>Fakultas Ekonomi dan Bisnis</p>
+                                </div>
+                                <div class="delegate-card">
+                                    <!-- <img src="https://images.unsplash.com/photo-1494790108755-2616b86a67b4?w=150&h=150&fit=crop&crop=face" alt="Maria Angelica" loading="lazy"> -->
+                                    <h5>Kim Nari</h5>
+                                    <p>Fakultas Hukum</p>
+                                </div>
+                                
+                            
+                            </div>
+                        </div>
+                        <!-- <div class="award-actions">
+                            <button class="btn btn-secondary" onclick="showAwardDetail('2023-asian')">Lihat Detail</button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="award-item">
+                    <div class="award-year">2024</div>
+                    <div class="award-content">
+                        <div class="award-trophy">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>UHT Regional Debate Competition</h3>
+                        <p class="award-event">Kompetisi Debat Mahasiswa Indonesia</p>
+                        <div class="award-image-container">
+                            <img src="images/bgulil.jpeg" alt="Best Speaker Award 2023" loading="lazy" class="award-image">
+                        </div>
+                        <p class="award-description">Meraih 3 penghargaan yaitu Juara Harapan 1, 1st Best Speaker, 9th Best Speaker dalam kompetisi UHT Regional Deabte Competition</p>
+                        <div class="award-delegation">
+                            <h4><i class="fas fa-user"></i> Penerima Penghargaan:</h4>
+                            <div class="delegation-grid">
+                                <div class="delegate-card">
+                                    <!-- <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="Rizki Pratama" loading="lazy"> -->
+                                    <h5>Best Speaker - Moh Ulil</h5>
+                                    <p>Fakultas Arsitektur Lanskap dan Teknik Lingkungan</p>
+                                </div>
+                                <div class="delegate-card">
+                                    <!-- <img src="https://images.unsplash.com/photo-1494790108755-2616b86a67b4?w=150&h=150&fit=crop&crop=face" alt="Maria Angelica" loading="lazy"> -->
+                                    <h5>9th Best Speaker - Natsir</h5>
+                                    <p>Fakultas</p>
+                                </div>
+                                
+                               
+                            </div>
+                        </div>
+                        <!-- <div class="award-actions">
+                            <button class="btn btn-secondary" onclick="showAwardDetail('2023-best-speaker')">Lihat Detail</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="registration" class="registration">
+        <div class="container">
+            <div class="section-header">
+                <h2>Bergabung dengan Trisakti Voices</h2>
+                <p>Wujudkan potensi debat dan public speaking Anda bersama kami</p>
+            </div>
+            
+            <div class="registration-content">
+                <div class="registration-info">
+                    <h3>Syarat & Ketentuan Pendaftaran</h3>
+                    <div class="requirements">
+                        <div class="requirement-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Mahasiswa aktif Universitas Trisakti</span>
+                        </div>
+                        <div class="requirement-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Memiliki minat dan kemampuan berbicara di depan umum</span>
+                        </div>
+                        <div class="requirement-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Dapat mengikuti latihan rutin dan kompetisi</span>
+                        </div>
+                        <div class="requirement-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Berkomitmen untuk belajar dan berkembang</span>
+                        </div>
+                        <div class="requirement-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Lulus seleksi dan tes argumentasi</span>
+                        </div>
+                    </div>
+                    
+                    <div class="registration-timeline">
+                        <h4>Timeline Pendaftaran 2024</h4>
+                        <div class="timeline-item">
+                            <span class="date">27 Agustus - 30 Agustus</span>
+                            <span class="event">Pendaftaran Online</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">31 Agustus</span>
+                            <span class="event">Seleksi Berkas</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">1 September</span>
+                            <span class="event">Interview</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">2 September</span>
+                            <span class="event">Pengumuman Hasil</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- QR Code Registration Form Replacement -->
+                <div class="registration-form">
+                    <div class="qr-container">
+                        <h3><i class="fas fa-qrcode"></i> Pendaftaran Online</h3>
+                        <!-- <div class="scan-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div> -->
+                        <div class="qr-code-wrapper">
+                            <img src="images/regis.jpeg" alt="QR Code Pendaftaran" class="qr-code" />
+                        </div>
+                        <div class="qr-instructions">
+                            <p><strong>Scan QR Code dengan smartphone Anda</strong></p>
+                            <p>atau klik tombol di bawah untuk mengisi form pendaftaran</p>
+                        </div>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSck5NlXlI0HaLBRUFmupoLoBW-lt4BpZV_F_wZMKrTwH5xtbg/viewform?usp=header " class="download-link">
+                            <i class="fas fa-external-link-alt"></i> Buka Form Pendaftaran
+                        </a>
+                    </div>
+                </div>
+               
+            </div>
+            
+            <div class="contact-info">
+                <h3>Informasi Lebih Lanjut</h3>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>trisaktivoices@trisakti.ac.id</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <span>@trisaktivoices</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>+62 812-2250-2303</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Kampus A Universitas Trisakti, Jakarta</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-microphone-alt"></i>
+                        <span>Trisakti Voices</span>
+                    </div>
+                    <p>Unit Kegiatan Mahasiswa Debat Universitas Trisakti yang berkomitmen mengembangkan kemampuan argumentasi, public speaking, dan pemikiran kritis mahasiswa untuk bersaing di tingkat nasional dan internasional.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#activities">Kegiatan</a></li>
+                        <li><a href="#awards">Penghargaan</a></li>
+                        <li><a href="#registration">Pendaftaran</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <p><i class="fas fa-envelope"></i> trisaktivoices@trisakti.ac.id</p>
+                    <p><i class="fab fa-whatsapp"></i> +62 812-2250-2303</p>
+                    <p><i class="fab fa-instagram"></i> @trisaktivoices</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Kampus A Universitas Trisakti<br>Jl. Kyai Tapa No.1, Jakarta Barat</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Trisakti Voices. Semua hak cipta dilindungi. </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <div class="image-modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <div class="image-container">
+                <img id="modalImage" src="" alt="">
+                <div class="image-nav">
+                    <button class="nav-btn" id="prevBtn" aria-label="Previous image">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="nav-btn" id="nextBtn" aria-label="Next image">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="image-counter" id="imageCounter"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+    <!-- Additional functionality placeholders -->
+    <script>
+        // Placeholder functions for activity and award details
+        function showActivityDetail(activityType) {
+            console.log('Showing activity detail for:', activityType);
+            // You can implement modal or page navigation here
+            alert(`Detail kegiatan ${activityType} akan segera hadir!`);
+        }
+
+        function showAwardDetail(awardId) {
+            console.log('Showing award detail for:', awardId);
+            // You can implement modal or page navigation here  
+            alert(`Detail penghargaan ${awardId} akan segera hadir!`);
+        }
+    </script>
+</body>
+</html>
